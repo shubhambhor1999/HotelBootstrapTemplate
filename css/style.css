@@ -1,0 +1,29 @@
+.carousel-inner .carousel-item{
+    height: 680px;
+}
+p
+{
+	font-family: sans-serif;
+}
+h1,h2,h3,h4,h5
+{
+	font-family: serif;
+}
+
+.navbar-nav .navbar-link
+{
+
+	color: #ae9548;
+}
+.footer .icon
+{
+	font-size: 20px;
+}
+.nav-item .nav-link
+{
+	font-size: 20px;
+}
+.footer
+{
+background-color: grey ;text-align:center;
+}

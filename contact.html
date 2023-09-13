@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/all.min.js"></script>
+    <title>Hotel</title>
+    <script type="text/javascript">
+    	function validate()
+    	{
+    		alert("Thanks For The Feedback");
+    	}
+    </script>
+
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: black; ">
+            <h1 style="color: #ae9548; font-size: 30px; font-family: serif; margin-top: 10px">HOTEL</h1>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" style="color: #ae9548; " href="index.html  ">Home <span
+                                class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="aboutus.html" style="color: #ae9548; ">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Services.html" style="color: #ae9548;">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="gallery.html" style="color: #ae9548; ">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html" style="color: #ae9548; ">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <section class="map" id="map">
+        <div>
+            <br>
+            <br>
+            <u style="color: #ae9548;"><strong>
+                    <h1 style="color:black;font-family:serif; text-align: center;font-size: 80px;">Contact Us</h1>
+                </strong></u>
+            <br>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-7 col-md-5">
+                    <u style="color: #ae9548;"><strong>
+                        <h1 style="color: black">Address</h1></strong></u>
+                        <p>	
+                        Dezignolics Web & Software Company,
+                        5th Floor, Krishna Plaza, Opp. CKP Bank, Near Railway Station, Thane, Maharashtra 400602
+                    </p>
+                    <u style="color: #ae9548;"><strong>
+                            <h1 style="color:black;">Feedback Form</h1>
+                        </strong></u>
+                    
+                
+                <form  action="php/form.php" onsubmit="validate()" method="post">
+                    
+                    <div class="form-group">
+                        <label for="exampleFormControlTextarea1">Name</label>
+                        <input class="form-control" id="exampleFormControlTextarea1" name="fullname" id="fullname" rows="1" placeholder="Enter Name" required></input>
+
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Email address</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1"
+                            placeholder="Enter email" name="emailid" id="emailid" required>
+                        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+                            else.</small>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlTextarea1">Message</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" name="message" id="message" rows="3"></textarea>
+                    </div>
+                    <button type="submit" class="btn" style="background-color: #ae9548; color: white;">Submit</button>
+                </form>
+                </div>
+                <div class="col-lg-5 col-md-7" style="width: 600px; height: 600px;">
+                    <iframe class="w-100 h-100"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3768.1769064349846!2d72.97340171490286!3d19.18747408702406!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b9274b556c8d%3A0xfbbec336d9937087!2sDezignolics%20Web%20%26%20Software%20Company!5e0!3m2!1sen!2sin!4v1576558993177!5m2!1sen!2sin"
+                         frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <footer class="footer" id="footer">
+        <hr style="border: 2px solid #ae9548;">
+        <p>Copyright <i class="far fa-copyright"></i> 2019 All Rights Reserved | This template is made with <i
+                class="far fa-heart"></i> by Decodetech.</p>
+        <div class="icon">
+            <i class="fab fa-facebook-f"></i>&nbsp;&nbsp;
+            <i class="fab fa-instagram"></i>&nbsp;&nbsp;
+            <i class="fab fa-twitter"></i>&nbsp;&nbsp;
+            <i class="fab fa-whatsapp"></i>&nbsp;&nbsp;
+            <i class="fab fa-snapchat"></i>
+        </div>
+        <hr style="border: 2px solid #ae9548; margin-bottom: 0px;">
+    </footer>
+</body>
+
+</html>
